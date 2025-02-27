@@ -1,0 +1,30 @@
+server:
+  port: 3333
+  
+spring:
+  application:
+    name: 05-Spring-Security-API-GATEWAY
+    
+  cloud:
+    gateway:
+      routes:
+      - id: welcome-api
+        uri: lb://WELCOMESECURITY
+        predicates:
+        - Path=/welcome
+        filters:
+        - AuthenticationFilter        
+      - id: greet-api
+        uri: lb://GREETSECURITY
+        predicates:
+        - Path=/greet
+        filters:
+        - AuthenticationFilter      
+      - id: authentication-api
+        uri: lb://AUTHSERVICE
+        predicates:
+        - Path=/auth/**
+
+        
+  main:
+    web-application-type: reactive

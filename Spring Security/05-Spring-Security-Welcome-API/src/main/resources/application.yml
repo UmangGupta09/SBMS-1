@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: welcomesecurity
+  config:
+    import: optional:configserver:http://localhost:9092
+
+server:
+  port: 9093
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: localhost

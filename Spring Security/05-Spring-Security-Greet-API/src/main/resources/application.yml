@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: greetsecurity
+  config:
+    import: optional:configserver:http://localhost:9092
+
+server:
+  port: 9095
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: localhost

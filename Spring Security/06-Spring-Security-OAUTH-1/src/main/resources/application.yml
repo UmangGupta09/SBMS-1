@@ -1,0 +1,10 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Ov23liIpzfAeNcDnPH4a
+            clientSecret: a69ebe28e09c0d1b2540b2e051401316ffac132b
+  application:
+    name: 06-Spring-Security-OAUTH-1

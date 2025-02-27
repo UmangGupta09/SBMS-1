@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: 05-Spring-Security-Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/UmangGupta09/configuration_properties/
+          clone-on-start: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 9092

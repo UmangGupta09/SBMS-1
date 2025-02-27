@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: authservice
+  datasource:
+    url: jdbc:mysql://localhost:3306/poqt01
+    username: poqt01update
+    password: poqt01update
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 9096
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
