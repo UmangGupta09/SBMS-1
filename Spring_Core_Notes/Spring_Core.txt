@@ -1,0 +1,66 @@
+==========================
+What is Framework
+=========================
+=> Framework is a semi developed software
+
+=> Frameworks providing common logics for application development
+
+=> If we use frameworks then we need to focus only on business logic
+
+=> Using frameworks we can do more work in less time (productivity)
+
+=> We have several frameworks in java community
+
+      1) JSF -----------> outdated
+      2) Hibernate -----> data jpa
+      3) Struts -------> out dated
+      4) Spring ---> SpringBoot ----> trending
+
+
+=> Hibernate is an ORM framework.
+=> ORM means Object Relational Mapping
+=> Using Hibernate we can develop persistence layer
+=> Hibernate developed on top of JDBC.
+
+
+=> Struts framework developed by Apache
+=> Struts is used to develop only web layer
+
+in Struts Framework , There is not any provision for Database connectivity, So we used hibernate for this purpose.
+
+=> Spring is called as application development framework
+=> Using spring we can develop entire application including DB connectivity
+=> Spring is free of cost & open source
+=> Spring framework provides common logics required for application development.
+
+Note: SpringBoot is an extension for Spring Framework.
+
+===============
+What is Spring
+===============
+
+=> It is java based framework developed by interface21 company.
+
+Note: Now spring is under license of VMWare.
+
+=> Spring is free and open source framework.
+
+=> Spring is called as Application development framework.
+
+Note: We can develop all the layers of application using spring framework.
+
+=> Spring Framework developed by "Rod Johnson"
+
+=> Spring 1.x released in 2004
+
+=> The current version of spring is 6.x version
+
+=================================
+What we can develop using Spring
+==================================
+
+1) Stand-alone apps (desktop)
+
+2) Web Applications (C2B)
+
+3) Distributed Applications (B2B)
